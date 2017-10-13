@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Legacy Files\GridGenerator.cs" />
      <Compile Include="Assets\Scripts\Legacy Files\MovePlayer.cs" />
      <Compile Include="Assets\Scripts\Legacy Files\TurnManager.cs" />
+     <Compile Include="Assets\Scripts\MenuFunctionality.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\Shooting.cs" />
      <Compile Include="Assets\Scripts\TempMove.cs" />
