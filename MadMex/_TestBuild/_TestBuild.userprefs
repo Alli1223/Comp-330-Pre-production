@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Camera\CameraMovement.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Weapons\PlayerWeaponManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Weapons\WeaponFiringTypes.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Weapons\Variables\Weapon.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Managers\ShootingManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Managers\WeaponManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Managers\TurnManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Managers\PlayerManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Managers\CameraManager.cs" Line="12" Column="33" />
+      <File FileName="Assets\Scripts\Managers\ManagersManager.cs" Line="16" Column="34" />
+      <File FileName="Assets\Scripts\Camera\CameraMovement.cs" Line="70" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
