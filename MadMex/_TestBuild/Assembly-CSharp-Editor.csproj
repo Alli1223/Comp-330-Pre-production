@@ -52,6 +52,8 @@
      <Compile Include="Assets\Editor\EditorReferencePose.cs" />
      <Compile Include="Assets\Editor\GridGenerationInspector.cs" />
      <None Include="Assets\BenNewFile.txt" />
+     <None Include="Assets\Resources\CellShader\ToonDeferredShading2017.shader" />
+     <None Include="Assets\Resources\CellShader\UnityStandardBRDFCustom.cginc" />
      <None Include="Assets\Resources\FirstMissionDialogue.txt" />
      <None Include="Assets\TempMerge.txt" />
  <Reference Include="UnityEditor.Advertisements">

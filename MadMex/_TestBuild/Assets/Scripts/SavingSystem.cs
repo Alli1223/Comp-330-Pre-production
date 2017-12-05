@@ -18,6 +18,7 @@ public class SavingSystem : MonoBehaviour
     {
 
     }
+    
 
     // Function gets called when application closes
     void OnApplicationQuit()
@@ -40,6 +41,7 @@ public class SavingSystem : MonoBehaviour
 }
 
 
+//! A class containing the game data to be saved
 [System.Serializable]
 public class Game
 {

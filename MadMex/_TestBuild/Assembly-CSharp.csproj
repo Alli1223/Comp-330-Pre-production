@@ -89,6 +89,8 @@
      <Compile Include="Assets\Scripts\buildingDestruction.cs" />
      <Compile Include="Assets\Scripts\pushBuilding.cs" />
      <None Include="Assets\BenNewFile.txt" />
+     <None Include="Assets\Resources\CellShader\ToonDeferredShading2017.shader" />
+     <None Include="Assets\Resources\CellShader\UnityStandardBRDFCustom.cginc" />
      <None Include="Assets\Resources\FirstMissionDialogue.txt" />
      <None Include="Assets\TempMerge.txt" />
  <Reference Include="UnityEngine.UI">
