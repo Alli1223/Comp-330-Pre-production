@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/Alastair/Desktop/_TestBuild/Assets/Marc's Test Field.unity
+- path: Assets/Scenes/MadMexMissionSelect.unity
   isLoaded: 1
   isActive: 1
