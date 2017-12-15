@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadMex v0.0.4", "Assembly-CSharp.csproj", "{BEEBEB5C-9C9A-6936-6166-EA4648DDF55A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadMex v0.0.4", "Assembly-CSharp-Editor.csproj", "{676EEBB6-FC0B-11C4-34CB-B31B9C1735EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEEBEB5C-9C9A-6936-6166-EA4648DDF55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEEBEB5C-9C9A-6936-6166-EA4648DDF55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEEBEB5C-9C9A-6936-6166-EA4648DDF55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEEBEB5C-9C9A-6936-6166-EA4648DDF55A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676EEBB6-FC0B-11C4-34CB-B31B9C1735EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676EEBB6-FC0B-11C4-34CB-B31B9C1735EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676EEBB6-FC0B-11C4-34CB-B31B9C1735EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676EEBB6-FC0B-11C4-34CB-B31B9C1735EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

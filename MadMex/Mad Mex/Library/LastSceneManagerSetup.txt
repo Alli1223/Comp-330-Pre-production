@@ -1,4 +1,5 @@
 sceneSetups:
-- path: Assets/MadMexMissionSelect.unity
+- path: E:/GitHub/Comp-330-Pre-production/MadMex/MadMex v0.0.4/Assets/Marc's Test
+    Field.unity
   isLoaded: 1
   isActive: 1

@@ -38,8 +38,11 @@ public class CoverSystemManager : MonoBehaviour
         if(Physics.Raycast(fromPosition, direction,out hit))
         {
             Debug.DrawRay(fromPosition, direction);
-            print("Body can see : " + hit.collider.gameObject.name);
-                return true;
+           // print("Body can see : " + hit.collider.gameObject.name);
+            if(hit.collider.gameObject.name == "temp_enemy (1)")
+                print("Body can see : " + hit.collider.gameObject.name);
+
+            return true;
         }
         return false;
 
@@ -56,8 +59,9 @@ public class CoverSystemManager : MonoBehaviour
         if (Physics.Raycast(fromPosition, direction, out hit))
         {
             Debug.DrawRay(fromPosition, direction);
-
-                return true;
+            if (hit.collider.gameObject.name == "temp_enemy (1)")
+                print("Left arm can see : " + hit.collider.gameObject.name);
+            return true;
         }
         return false;
     }
@@ -72,8 +76,9 @@ public class CoverSystemManager : MonoBehaviour
         if (Physics.Raycast(fromPosition, direction, out hit))
         {
             Debug.DrawRay(fromPosition, direction);
-
-                return true;
+            if (hit.collider.gameObject.name == "temp_enemy (1)")
+                print("Right arm can see : " + hit.collider.gameObject.name);
+            return true;
         }
         return false;
 
@@ -84,10 +89,14 @@ public class CoverSystemManager : MonoBehaviour
     void Update ()
     {
         CheckCoverWithObject(player, enemy);
-        if(LeftArmRay(LeftArm, enemy))
+        LeftArmRay(LeftArm, enemy);
+        RightArmRay(RightArm, enemy);
+        /*
+        if (LeftArmRay(LeftArm, enemy))
             print("Left Arm can hit");
         if(RightArmRay(RightArm, enemy))
             print("Right Arm can hit");
+            */
 
     }
 }
